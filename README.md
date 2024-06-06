@@ -16,13 +16,8 @@
 
 ### Установка и запуск серверной части
 
-1. Клонируйте репозиторий на ваш локальный компьютер:
-    ```bash
-    git clone https://github.com/<your-username>/create_album.git
-    cd create_album
-    ```
 
-2. Создайте и активируйте виртуальное окружение (в директории `backend`):
+1. Создайте и активируйте виртуальное окружение (в директории `backend`):
     ```bash
     cd backend
     python -m venv venv
@@ -38,12 +33,12 @@
     source venv/bin/activate
     ```
 
-3. Установите необходимые библиотеки:
+2. Установите необходимые библиотеки:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Запустите серверную часть:
+3. Запустите серверную часть:
     ```bash
     python app.py
     ```
